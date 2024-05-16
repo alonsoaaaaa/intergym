@@ -28,7 +28,7 @@ function PlansPage() {
             Suscripción de 1 mes
           </h1>
           <p className="text-xl font-semibold text-center text-green-600">
-            Suscripcion individual de 3 meses a tan solo $899 pesos{" "}
+            Suscripcion individual de 3 meses a tan solo $399 pesos{" "}
           </p>
           <div>
             <a href="tel:+55 7315 6248">
@@ -87,7 +87,7 @@ function PlansPage() {
             Suscripción de 1 año
           </h1>
           <p className="text-xl font-semibold text-center text-orange-600">
-            Suscripcion individual de 1 meses a tan solo $399{" "}
+            Suscripcion individual de 1 año a tan solo $2500{" "}
           </p>
           <div>
             <a href="tel:+55 7315 6248">
