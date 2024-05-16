@@ -11,7 +11,7 @@ function PromotionsPage() {
       <section className="flex flex-col justify-center items-center">
         <header className="flex justify-center items-center text-4xl text-yellow-400 text-center font-bold pt-8 pb-2">
           <StarIcon size={24} className="text-yellow-400" fill={"yellow"} />
-          <h1 className="max-w-[50%]">Ofertas de temporada</h1>
+          <h1 className="max-w-[50%] text-yellow-400">Ofertas de temporada</h1>
           <StarIcon size={24} className="text-yellow-400" fill={"yellow"} />
         </header>
         <div className="flex flex-col sm:flex-row items-center flex-wrap gap-3 px-4 py-4">
