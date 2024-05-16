@@ -58,7 +58,7 @@ function PlansPage() {
             Suscripción de 3 meses
           </h1>
           <p className="text-xl font-semibold text-center text-blue-600">
-            Suscripcion individual de 3 meses a tan solo $899{" "}
+            Suscripcion individual de 1 mes a tan solo $899{" "}
           </p>
           <div>
             <a href="tel:+55 7315 6248">
