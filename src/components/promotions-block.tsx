@@ -3,12 +3,12 @@ import React from "react";
 
 function PromotionsBlock() {
   return (
-    <div className="flex flex-col sm:flex-row bg-gradient-to-r from-gray-400 via-blue-400 to-purple-500 p-2 rounded-3xl">
+    <div className="flex flex-col sm:flex-row bg-gradient-to-r from-gray-400 via-blue-400 to-purple-500 p-2 rounded-3xl items-center">
       <div className="flex">
         <Image
-          src="/promocion.jpg"
+          src="/promocion1.png"
           alt="instalaciones"
-          width={1000}
+          width={400}
           height={400}
           className="border-4 border-white rounded-xl"
         />

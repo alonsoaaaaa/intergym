@@ -23,10 +23,8 @@ export function PromoCard({
   return (
     <Card className="w-[80%] sm:w-[350px] border-orange-500 bg-orange-300 border-4 items-start justify-start">
       <CardHeader>
-        <CardTitle className={colorClass}>Promoción {promoName}</CardTitle>
-        <CardDescription className={colorClass}>
-          buena promo {description}
-        </CardDescription>
+        <CardTitle className={colorClass}>Promoción: {promoName}</CardTitle>
+        <CardDescription className={colorClass}>{description}</CardDescription>
       </CardHeader>
       <CardContent>
         <div className="flex w-full items-center">

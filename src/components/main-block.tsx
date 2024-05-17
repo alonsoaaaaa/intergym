@@ -5,7 +5,7 @@ function MainDisplay() {
   return (
     <div className="relative w-full">
       <video
-        src="https://thegym.nyc3.cdn.digitaloceanspaces.com/thegym-banner-video.mp4"
+        src="/intergym-video3.mp4"
         autoPlay
         loop
         muted
@@ -14,16 +14,16 @@ function MainDisplay() {
       />
       <div className="relative z-10 text-center text-white py-[10%]">
         <h1 className="text-3xl font-serif font-semibold text-white mb-4 ">
-          EL GYM DE{" "}
-          <span className="text-red-500 font-extrabold">ALTO RENDIMIENTO</span>
+          EL GYM{" "}
+          <span className="text-yellow-500 font-extrabold">INTERNACIONAL</span>
         </h1>
         <p className="text-xl mb-8 sm:text-white font-extrabold text-white sm:font-semibold">
-          <span className="">Evoluciona</span> tu mejor versión con nosotros
+          <span className="">Gimnasio integral a un precio competitivo</span>
         </p>
         <Link href={"/plans"}>
           <Button
             variant="destructive"
-            className="bg-orange-500 hover:bg-orange-600 rounded-xl"
+            className="bg-yellow-500 hover:bg-yellow-600 rounded-xl"
           >
             VER SUSCRIPCIONES
           </Button>

@@ -11,13 +11,18 @@ import {
 
 function NavBar() {
   return (
-    <nav className="flex flex-col sm:flex-row items-center justify-between bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500">
-      <Image
-        src={"https://thegym.nyc3.cdn.digitaloceanspaces.com/logothegym.png"}
-        alt="logo"
-        width="200"
-        height={50}
-      />
+    <nav className="flex flex-col sm:flex-row items-center justify-between bg-gradient-to-r from-yellow-600 via-yellow-400 to-yellow-200">
+      <div className="flex flex-col items-center">
+        <Image
+          src={"/intergym-logo.png"}
+          alt="logo"
+          width="130"
+          height={50}
+          className="py-2 mx-2"
+        />
+        <span className="font-extrabold text-white">IXTAPALUCA</span>
+      </div>
+
       <ul className="flex flex-col sm:flex-row sm:space-x-4 space-y-2 sm:space-y-0 mt-4 sm:mt-0 text-center items-center">
         <Link href={"/"} className="flex items-center">
           <Button className="text-xl" variant={"link"}>
@@ -44,7 +49,7 @@ function NavBar() {
         </Link>
       </ul>
       <div>
-        <a href="tel:+55 7315 6248">
+        <a href="tel:+55 5289 6924">
           <Button className="text-xl bg-purple-600 gap-1 my-2 mx-2 rounded-xl">
             Llámanos
             <PhoneCallIcon size={24} />

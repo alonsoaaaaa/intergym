@@ -7,21 +7,15 @@ export function cn(...inputs: ClassValue[]) {
 
 export const data = [
   {
-    promoName: "Amigovios",
-    description: "Mensualidad para 2 personas a tan solo $599",
-    image: "/promo-amigos.jpg",
-    color: "green",
-  },
-  {
-    promoName: "3 personas",
-    description: "Mensualidad para 3 personas a tan solo $799",
-    image: "/promo-3personas.jpg",
-    color: "red",
-  },
-  {
-    promoName: "Estudiantes",
-    description: "Mensualidad para estudiantes a tan solo $299",
-    image: "/promocion.jpg",
+    promoName: "Sector Docente",
+    description: "Anualidad al sector docente por solo $2500",
+    image: "/promocion2.png",
     color: "blue",
+  },
+  {
+    promoName: "Mes de Mamá",
+    description: "2 mamás por solo $600",
+    image: "/promocion1.png",
+    color: "red",
   },
 ];

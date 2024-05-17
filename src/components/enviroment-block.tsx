@@ -10,11 +10,11 @@ function EnviromentBlock() {
           <HeartHandshakeIcon size={100} className="text-red-500" />
         </div>
         <Image
-          src="/gato-kawai.png"
+          src="/ardillas.png"
           alt="instalaciones"
           width={200}
           height={300}
-          className="rounded-xl border-4 border-dotted border-red-200 w-[50%] sm:w-full"
+          className="rounded-xl border-4 border-dotted border-red-200 w-[70%] sm:w-full sm:min-h-[300px]"
         />
         <div className="flex items-center sm:hidden w-[20%] sm:w-[40%]">
           <HeartPulseIcon size={100} className="text-red-500" />
