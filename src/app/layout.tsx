@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "THE GYM",
-  description: "El gimnasio de alto rendimiento",
+  title: "INTERNATIONAL FITNESS",
+  description: "El mejor gimnasio internacional",
 };
 
 export default function RootLayout({
